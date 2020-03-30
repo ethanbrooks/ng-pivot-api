@@ -1,0 +1,40 @@
+[{
+		"url": "https://js.devexpress.com/Demos/WidgetsGalleryDataService/api/Sales/Orders?group=%5B%7B%22selector%22%3A%22DateKey%22%2C%22groupInterval%22%3A%22year%22%2C%22isExpanded%22%3Afalse%7D%5D&totalSummary=%5B%7B%22selector%22%3A%22SalesAmount%22%2C%22summaryType%22%3A%22sum%22%7D%5D&groupSummary=%5B%7B%22selector%22%3A%22SalesAmount%22%2C%22summaryType%22%3A%22sum%22%7D%5D&_=1585505424425"
+	},
+	{
+		"group": [{
+			"selector": "DateKey",
+			"groupInterval": "year",
+			"isExpanded": false
+		}],
+		"totalSummary": [{
+			"selector": "SalesAmount",
+			"summaryType": "sum"
+		}],
+		"groupSummary": [{
+			"selector": "SalesAmount",
+			"summaryType": "sum"
+		}],
+		"_": 1585505424425
+	},
+	{
+		"data": [{
+			"key": 2007,
+			"items": null,
+			"count": 431394,
+			"summary": [1331627851.1445]
+		}, {
+			"key": 2008,
+			"items": null,
+			"count": 308314,
+			"summary": [1206758126.7615]
+		}, {
+			"key": 2009,
+			"items": null,
+			"count": 260292,
+			"summary": [1099870096.6043]
+		}],
+		"totalCount": 1000000,
+		"summary": [3638256074.5103]
+	}
+]

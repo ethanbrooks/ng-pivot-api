@@ -1,0 +1,48 @@
+[{
+		"url": "https://js.devexpress.com/Demos/WidgetsGalleryDataService/api/Sales/Orders?group=%5B%7B%22selector%22%3A%22DateKey%22%2C%22groupInterval%22%3A%22quarter%22%2C%22isExpanded%22%3Afalse%7D%5D&filter=%5B%5B%22DateKey.Year%22%2C%22%3D%22%2C2009%5D%5D&totalSummary=%5B%7B%22selector%22%3A%22SalesAmount%22%2C%22summaryType%22%3A%22sum%22%7D%5D&groupSummary=%5B%7B%22selector%22%3A%22SalesAmount%22%2C%22summaryType%22%3A%22sum%22%7D%5D&_=1585507412670"
+	},
+	{
+		"group": [{
+			"selector": "DateKey",
+			"groupInterval": "quarter",
+			"isExpanded": false
+		}],
+		"filter": [
+			["DateKey.Year", "=", 2009]
+		],
+		"totalSummary": [{
+			"selector": "SalesAmount",
+			"summaryType": "sum"
+		}],
+		"groupSummary": [{
+			"selector": "SalesAmount",
+			"summaryType": "sum"
+		}],
+		"_": 1585507412670
+	},
+	{
+		"data": [{
+			"key": 1,
+			"items": null,
+			"count": 61560,
+			"summary": [237585716.6495]
+		}, {
+			"key": 2,
+			"items": null,
+			"count": 65698,
+			"summary": [288891455.4623]
+		}, {
+			"key": 3,
+			"items": null,
+			"count": 66202,
+			"summary": [285611627.5470]
+		}, {
+			"key": 4,
+			"items": null,
+			"count": 66832,
+			"summary": [287781296.9455]
+		}],
+		"totalCount": 260292,
+		"summary": [1099870096.6043]
+	}
+]

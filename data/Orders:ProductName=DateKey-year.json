@@ -1,0 +1,1762 @@
+[{
+    "url": "https://js.devexpress.com/Demos/WidgetsGalleryDataService/api/Sales/Orders?group=%5B%7B%22selector%22%3A%22ProductName%22%2C%22isExpanded%22%3Afalse%7D%2C%7B%22selector%22%3A%22DateKey%22%2C%22groupInterval%22%3A%22year%22%2C%22isExpanded%22%3Afalse%7D%5D&filter=%5B%5B%5B%22ProductCategoryName%22%2C%22%3D%22%2C%22Computers%22%5D%5D%2C%22and%22%2C%5B%5B%22ProductSubcategoryName%22%2C%22%3D%22%2C%22Projectors%20%26%20Screens%22%5D%5D%5D&totalSummary=%5B%5D&groupSummary=%5B%7B%22selector%22%3A%22SalesAmount%22%2C%22summaryType%22%3A%22sum%22%7D%5D&_=1585505627805"
+},
+{
+    "group": [{
+        "selector": "ProductName",
+        "isExpanded": false
+    }, {
+        "selector": "DateKey",
+        "groupInterval": "year",
+        "isExpanded": false
+    }],
+    "filter": [
+        [
+            ["ProductCategoryName", "=", "Computers"]
+        ], "and", [
+            ["ProductSubcategoryName", "=", "Projectors & Screens"]
+        ]
+    ],
+    "totalSummary": [],
+    "groupSummary": [{
+        "selector": "SalesAmount",
+        "summaryType": "sum"
+    }],
+    "_": 1585505627805
+}, {
+    "data": [{
+        "key": "Contoso Projector 1080p X980 Black",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 263,
+            "summary": [6764076.4500]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 156,
+            "summary": [4449523.0500]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 91,
+            "summary": [1963326.6000]
+        }],
+        "summary": [13176926.1000]
+    }, {
+        "key": "Contoso Projector 1080p X980 Silver",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 277,
+            "summary": [7748929.8000]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 134,
+            "summary": [3637460.2500]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 105,
+            "summary": [2159342.5500]
+        }],
+        "summary": [13545732.6000]
+    }, {
+        "key": "Contoso Projector 1080p X980 White",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 232,
+            "summary": [6333327.9000]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 160,
+            "summary": [4390380.9000]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 108,
+            "summary": [2184885.9000]
+        }],
+        "summary": [12908594.7000]
+    }, {
+        "key": "Contoso Projector 1080p X981 Black",
+        "items": [{
+            "key": 2009,
+            "items": null,
+            "count": 83,
+            "summary": [1721561.1000]
+        }],
+        "summary": [1721561.1000]
+    }, {
+        "key": "Contoso Projector 1080p X981 Silver",
+        "items": [{
+            "key": 2009,
+            "items": null,
+            "count": 83,
+            "summary": [1900864.3500]
+        }],
+        "summary": [1900864.3500]
+    }, {
+        "key": "Contoso Projector 1080p X981 White",
+        "items": [{
+            "key": 2009,
+            "items": null,
+            "count": 78,
+            "summary": [1803003.5100]
+        }],
+        "summary": [1803003.5100]
+    }, {
+        "key": "Contoso Projector 480p M480 Black",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 256,
+            "summary": [675483.5900]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 129,
+            "summary": [372589.8700]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 99,
+            "summary": [263345.4200]
+        }],
+        "summary": [1311418.8800]
+    }, {
+        "key": "Contoso Projector 480p M480 Silver",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 280,
+            "summary": [785479.1600]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 158,
+            "summary": [450120.1100]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 109,
+            "summary": [282427.9900]
+        }],
+        "summary": [1518027.2600]
+    }, {
+        "key": "Contoso Projector 480p M480 White",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 261,
+            "summary": [692340.2800]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 145,
+            "summary": [389077.8700]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 105,
+            "summary": [305875.3000]
+        }],
+        "summary": [1387293.4500]
+    }, {
+        "key": "Contoso Projector 480p M481 Black",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 280,
+            "summary": [1757482.9900]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 165,
+            "summary": [1021752.4000]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 108,
+            "summary": [656993.3800]
+        }],
+        "summary": [3436228.7700]
+    }, {
+        "key": "Contoso Projector 480p M481 Silver",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 303,
+            "summary": [1812886.9600]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 146,
+            "summary": [872501.5000]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 114,
+            "summary": [713684.7700]
+        }],
+        "summary": [3399073.2300]
+    }, {
+        "key": "Contoso Projector 480p M481 White",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 273,
+            "summary": [1698745.7000]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 164,
+            "summary": [963539.0600]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 103,
+            "summary": [618750.0200]
+        }],
+        "summary": [3281034.7800]
+    }, {
+        "key": "Contoso Projector 720p M620 Black",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 238,
+            "summary": [2033901.2700]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 146,
+            "summary": [1188684.4500]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 114,
+            "summary": [990545.9100]
+        }],
+        "summary": [4213131.6300]
+    }, {
+        "key": "Contoso Projector 720p M620 Silver",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 236,
+            "summary": [2019641.6700]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 146,
+            "summary": [1241417.0100]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 91,
+            "summary": [777756.3300]
+        }],
+        "summary": [4038815.0100]
+    }, {
+        "key": "Contoso Projector 720p M620 White",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 250,
+            "summary": [2158931.4000]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 147,
+            "summary": [1225563.6900]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 109,
+            "summary": [913222.5300]
+        }],
+        "summary": [4297717.6200]
+    }, {
+        "key": "Contoso Projector 720p M621 Black",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 234,
+            "summary": [2865681.4500]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 165,
+            "summary": [1959208.8300]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 93,
+            "summary": [1052436.5100]
+        }],
+        "summary": [5877326.7900]
+    }, {
+        "key": "Contoso Projector 720p M621 Silver",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 248,
+            "summary": [2942015.0400]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 137,
+            "summary": [1741526.7300]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 99,
+            "summary": [1188640.1700]
+        }],
+        "summary": [5872181.9400]
+    }, {
+        "key": "Contoso Projector 720p M621 White",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 253,
+            "summary": [3086959.9500]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 142,
+            "summary": [1619269.1100]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 112,
+            "summary": [1333635.0300]
+        }],
+        "summary": [6039864.0900]
+    }, {
+        "key": "Contoso Screen 100in E010 Black",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 278,
+            "summary": [296776.2000]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 145,
+            "summary": [311715.9000]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 113,
+            "summary": [496481.4000]
+        }],
+        "summary": [1104973.5000]
+    }, {
+        "key": "Contoso Screen 100in E010 Silver",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 271,
+            "summary": [283419.2000]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 162,
+            "summary": [357234.2000]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 99,
+            "summary": [454248.2000]
+        }],
+        "summary": [1094901.6000]
+    }, {
+        "key": "Contoso Screen 100in E010 White",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 292,
+            "summary": [310674.7000]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 171,
+            "summary": [417471.8000]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 99,
+            "summary": [454288.1000]
+        }],
+        "summary": [1182434.6000]
+    }, {
+        "key": "Contoso Screen 106in M060 Black",
+        "items": [{
+            "key": 2008,
+            "items": null,
+            "count": 133,
+            "summary": [360222.6500]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 109,
+            "summary": [344394.5900]
+        }],
+        "summary": [704617.2400]
+    }, {
+        "key": "Contoso Screen 106in M060 Silver",
+        "items": [{
+            "key": 2008,
+            "items": null,
+            "count": 160,
+            "summary": [485870.7400]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 106,
+            "summary": [327474.6800]
+        }],
+        "summary": [813345.4200]
+    }, {
+        "key": "Contoso Screen 106in M060 White",
+        "items": [{
+            "key": 2008,
+            "items": null,
+            "count": 124,
+            "summary": [362935.9600]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 104,
+            "summary": [300886.2500]
+        }],
+        "summary": [663822.2100]
+    }, {
+        "key": "Contoso Screen 113in M251 Black",
+        "items": [{
+            "key": 2008,
+            "items": null,
+            "count": 129,
+            "summary": [461955.0000]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 80,
+            "summary": [295157.8500]
+        }],
+        "summary": [757112.8500]
+    }, {
+        "key": "Contoso Screen 113in M251 Silver",
+        "items": [{
+            "key": 2008,
+            "items": null,
+            "count": 132,
+            "summary": [470374.8400]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 105,
+            "summary": [367360.3700]
+        }],
+        "summary": [837735.2100]
+    }, {
+        "key": "Contoso Screen 113in M251 White",
+        "items": [{
+            "key": 2008,
+            "items": null,
+            "count": 130,
+            "summary": [458462.6800]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 111,
+            "summary": [395251.0900]
+        }],
+        "summary": [853713.7700]
+    }, {
+        "key": "Contoso Screen 125in M250 Black",
+        "items": [{
+            "key": 2008,
+            "items": null,
+            "count": 80,
+            "summary": [486953.1000]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 104,
+            "summary": [556799.1300]
+        }],
+        "summary": [1043752.2300]
+    }, {
+        "key": "Contoso Screen 125in M250 Silver",
+        "items": [{
+            "key": 2008,
+            "items": null,
+            "count": 65,
+            "summary": [418011.3000]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 108,
+            "summary": [596782.6200]
+        }],
+        "summary": [1014793.9200]
+    }, {
+        "key": "Contoso Screen 125in M250 White",
+        "items": [{
+            "key": 2008,
+            "items": null,
+            "count": 75,
+            "summary": [412113.1500]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 113,
+            "summary": [625382.9100]
+        }],
+        "summary": [1037496.0600]
+    }, {
+        "key": "Contoso Screen 80in E080 Black",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 252,
+            "summary": [156994.8800]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 145,
+            "summary": [188454.4600]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 113,
+            "summary": [292503.6800]
+        }],
+        "summary": [637953.0200]
+    }, {
+        "key": "Contoso Screen 80in E080 Silver",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 283,
+            "summary": [177666.7300]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 160,
+            "summary": [211942.8700]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 105,
+            "summary": [285954.9600]
+        }],
+        "summary": [675564.5600]
+    }, {
+        "key": "Contoso Screen 80in E080 White",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 278,
+            "summary": [178483.1400]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 154,
+            "summary": [197464.4000]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 95,
+            "summary": [251304.9500]
+        }],
+        "summary": [627252.4900]
+    }, {
+        "key": "Contoso Screen 85in E085 Black",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 260,
+            "summary": [199239.8200]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 139,
+            "summary": [216531.4200]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 99,
+            "summary": [333569.4200]
+        }],
+        "summary": [749340.6600]
+    }, {
+        "key": "Contoso Screen 85in E085 Silver",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 265,
+            "summary": [208530.5800]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 147,
+            "summary": [252735.3600]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 83,
+            "summary": [274451.3300]
+        }],
+        "summary": [735717.2700]
+    }, {
+        "key": "Contoso Screen 85in E085 White",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 285,
+            "summary": [225585.8800]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 142,
+            "summary": [235033.7100]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 112,
+            "summary": [378945.9700]
+        }],
+        "summary": [839565.5600]
+    }, {
+        "key": "Proseware Projector 1080p DLP86 Black",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 284,
+            "summary": [8182400.7300]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 132,
+            "summary": [4024664.4900]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 110,
+            "summary": [2621475.9900]
+        }],
+        "summary": [14828541.2100]
+    }, {
+        "key": "Proseware Projector 1080p DLP86 Silver",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 281,
+            "summary": [8341087.2300]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 135,
+            "summary": [4094186.6700]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 100,
+            "summary": [2261195.1600]
+        }],
+        "summary": [14696469.0600]
+    }, {
+        "key": "Proseware Projector 1080p DLP86 White",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 276,
+            "summary": [7865152.6800]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 147,
+            "summary": [4388368.9500]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 104,
+            "summary": [2257446.6600]
+        }],
+        "summary": [14510968.2900]
+    }, {
+        "key": "Proseware Projector 1080p LCD86 Black",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 280,
+            "summary": [7828612.2000]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 143,
+            "summary": [4137930.9000]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 112,
+            "summary": [2411792.5500]
+        }],
+        "summary": [14378335.6500]
+    }, {
+        "key": "Proseware Projector 1080p LCD86 Silver",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 280,
+            "summary": [7480988.5500]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 120,
+            "summary": [3288390.7500]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 99,
+            "summary": [2137448.2500]
+        }],
+        "summary": [12906827.5500]
+    }, {
+        "key": "Proseware Projector 1080p LCD86 White",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 274,
+            "summary": [7557825.1500]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 132,
+            "summary": [3761642.7000]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 91,
+            "summary": [1717050.1500]
+        }],
+        "summary": [13036518.0000]
+    }, {
+        "key": "Proseware Projector 480p DLP12 Black",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 261,
+            "summary": [1535013.8200]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 126,
+            "summary": [764298.3400]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 91,
+            "summary": [566025.6800]
+        }],
+        "summary": [2865337.8400]
+    }, {
+        "key": "Proseware Projector 480p DLP12 Silver",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 272,
+            "summary": [1708900.3500]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 147,
+            "summary": [859078.4000]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 97,
+            "summary": [579398.8800]
+        }],
+        "summary": [3147377.6300]
+    }, {
+        "key": "Proseware Projector 480p DLP12 White",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 276,
+            "summary": [1654279.8100]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 157,
+            "summary": [906323.7200]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 110,
+            "summary": [659169.0200]
+        }],
+        "summary": [3219772.5500]
+    }, {
+        "key": "Proseware Projector 480p LCD12 Black",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 270,
+            "summary": [723928.5400]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 150,
+            "summary": [415415.1600]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 98,
+            "summary": [280126.5400]
+        }],
+        "summary": [1419470.2400]
+    }, {
+        "key": "Proseware Projector 480p LCD12 Silver",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 308,
+            "summary": [852482.2700]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 150,
+            "summary": [418536.4300]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 116,
+            "summary": [323549.5200]
+        }],
+        "summary": [1594568.2200]
+    }, {
+        "key": "Proseware Projector 480p LCD12 White",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 275,
+            "summary": [750307.0500]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 165,
+            "summary": [446566.0300]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 95,
+            "summary": [262527.8900]
+        }],
+        "summary": [1459400.9700]
+    }, {
+        "key": "Proseware Projector 720p DLP56 Black",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 255,
+            "summary": [3106810.0800]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 144,
+            "summary": [1766022.2100]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 112,
+            "summary": [1481247.2700]
+        }],
+        "summary": [6354079.5600]
+    }, {
+        "key": "Proseware Projector 720p DLP56 Silver",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 244,
+            "summary": [2946910.1400]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 146,
+            "summary": [1695802.5000]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 95,
+            "summary": [1083305.6100]
+        }],
+        "summary": [5726018.2500]
+    }, {
+        "key": "Proseware Projector 720p DLP56 White",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 253,
+            "summary": [3023513.4600]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 145,
+            "summary": [1719468.8100]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 122,
+            "summary": [1517830.6500]
+        }],
+        "summary": [6260812.9200]
+    }, {
+        "key": "Proseware Projector 720p LCD56 Black",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 220,
+            "summary": [1812926.4000]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 131,
+            "summary": [1120706.7000]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 91,
+            "summary": [749446.8300]
+        }],
+        "summary": [3683079.9300]
+    }, {
+        "key": "Proseware Projector 720p LCD56 Silver",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 247,
+            "summary": [2043218.9400]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 122,
+            "summary": [1065422.7900]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 99,
+            "summary": [801130.8900]
+        }],
+        "summary": [3909772.6200]
+    }, {
+        "key": "Proseware Projector 720p LCD56 White",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 235,
+            "summary": [1945037.4000]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 153,
+            "summary": [1264274.3100]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 98,
+            "summary": [780748.0500]
+        }],
+        "summary": [3990059.7600]
+    }, {
+        "key": "Proseware Screen 100in M1609 Black",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 294,
+            "summary": [316787.0000]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 152,
+            "summary": [332783.1000]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 92,
+            "summary": [444854.6000]
+        }],
+        "summary": [1094424.7000]
+    }, {
+        "key": "Proseware Screen 100in M1609 Silver",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 258,
+            "summary": [272765.9000]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 150,
+            "summary": [346981.8000]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 101,
+            "summary": [485223.9000]
+        }],
+        "summary": [1104971.6000]
+    }, {
+        "key": "Proseware Screen 100in M1609 White",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 272,
+            "summary": [278253.1000]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 151,
+            "summary": [370929.4000]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 107,
+            "summary": [515859.5000]
+        }],
+        "summary": [1165042.0000]
+    }, {
+        "key": "Proseware Screen 106in M1609 Black",
+        "items": [{
+            "key": 2008,
+            "items": null,
+            "count": 132,
+            "summary": [389833.1200]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 111,
+            "summary": [319096.3000]
+        }],
+        "summary": [708929.4200]
+    }, {
+        "key": "Proseware Screen 106in M1609 Silver",
+        "items": [{
+            "key": 2008,
+            "items": null,
+            "count": 153,
+            "summary": [445959.2300]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 92,
+            "summary": [265424.9700]
+        }],
+        "summary": [711384.2000]
+    }, {
+        "key": "Proseware Screen 106in M1609 White",
+        "items": [{
+            "key": 2008,
+            "items": null,
+            "count": 167,
+            "summary": [506776.5300]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 93,
+            "summary": [271870.6500]
+        }],
+        "summary": [778647.1800]
+    }, {
+        "key": "Proseware Screen 113in X1609 Black",
+        "items": [{
+            "key": 2008,
+            "items": null,
+            "count": 113,
+            "summary": [393095.3000]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 99,
+            "summary": [357239.2200]
+        }],
+        "summary": [750334.5200]
+    }, {
+        "key": "Proseware Screen 113in X1609 Silver",
+        "items": [{
+            "key": 2008,
+            "items": null,
+            "count": 135,
+            "summary": [503725.3000]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 118,
+            "summary": [418899.0000]
+        }],
+        "summary": [922624.3000]
+    }, {
+        "key": "Proseware Screen 113in X1609 White",
+        "items": [{
+            "key": 2008,
+            "items": null,
+            "count": 118,
+            "summary": [432186.5600]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 93,
+            "summary": [330272.4100]
+        }],
+        "summary": [762458.9700]
+    }, {
+        "key": "Proseware Screen 125in X1609 Black",
+        "items": [{
+            "key": 2009,
+            "items": null,
+            "count": 72,
+            "summary": [389085.1200]
+        }],
+        "summary": [389085.1200]
+    }, {
+        "key": "Proseware Screen 125in X1609 Silver",
+        "items": [{
+            "key": 2009,
+            "items": null,
+            "count": 80,
+            "summary": [459137.7000]
+        }],
+        "summary": [459137.7000]
+    }, {
+        "key": "Proseware Screen 125in X1609 White",
+        "items": [{
+            "key": 2009,
+            "items": null,
+            "count": 66,
+            "summary": [335620.8000]
+        }],
+        "summary": [335620.8000]
+    }, {
+        "key": "Proseware Screen 80in E1010 Black",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 276,
+            "summary": [167077.3800]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 173,
+            "summary": [237897.9500]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 107,
+            "summary": [289809.2000]
+        }],
+        "summary": [694784.5300]
+    }, {
+        "key": "Proseware Screen 80in E1010 Silver",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 251,
+            "summary": [157661.9600]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 131,
+            "summary": [176928.8000]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 90,
+            "summary": [256075.8800]
+        }],
+        "summary": [590666.6400]
+    }, {
+        "key": "Proseware Screen 80in E1010 White",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 264,
+            "summary": [155516.8400]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 167,
+            "summary": [209338.8600]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 98,
+            "summary": [259078.8300]
+        }],
+        "summary": [623934.5300]
+    }, {
+        "key": "Proseware Screen 85in E1010 Black",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 268,
+            "summary": [214913.4600]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 160,
+            "summary": [265916.7300]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 97,
+            "summary": [325123.7800]
+        }],
+        "summary": [805953.9700]
+    }, {
+        "key": "Proseware Screen 85in E1010 Silver",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 271,
+            "summary": [221346.3800]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 137,
+            "summary": [239048.0300]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 104,
+            "summary": [350984.7300]
+        }],
+        "summary": [811379.1400]
+    }, {
+        "key": "Proseware Screen 85in E1010 White",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 262,
+            "summary": [203053.9800]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 168,
+            "summary": [282762.1400]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 121,
+            "summary": [438392.1000]
+        }],
+        "summary": [924208.2200]
+    }, {
+        "key": "WWI Projector 1080p DLP86 Black",
+        "items": [{
+            "key": 2008,
+            "items": null,
+            "count": 35,
+            "summary": [1136795.1000]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 107,
+            "summary": [2530962.2100]
+        }],
+        "summary": [3667757.3100]
+    }, {
+        "key": "WWI Projector 1080p DLP86 Silver",
+        "items": [{
+            "key": 2008,
+            "items": null,
+            "count": 41,
+            "summary": [1257121.9500]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 111,
+            "summary": [2449294.8900]
+        }],
+        "summary": [3706416.8400]
+    }, {
+        "key": "WWI Projector 1080p DLP86 White",
+        "items": [{
+            "key": 2008,
+            "items": null,
+            "count": 38,
+            "summary": [1348085.5500]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 114,
+            "summary": [2600109.5400]
+        }],
+        "summary": [3948195.0900]
+    }, {
+        "key": "WWI Projector 1080p LCD86 Black",
+        "items": [{
+            "key": 2008,
+            "items": null,
+            "count": 43,
+            "summary": [1203039.0000]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 90,
+            "summary": [1930806.4500]
+        }],
+        "summary": [3133845.4500]
+    }, {
+        "key": "WWI Projector 1080p LCD86 Silver",
+        "items": [{
+            "key": 2008,
+            "items": null,
+            "count": 31,
+            "summary": [816790.5000]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 108,
+            "summary": [2453836.9500]
+        }],
+        "summary": [3270627.4500]
+    }, {
+        "key": "WWI Projector 1080p LCD86 White",
+        "items": [{
+            "key": 2008,
+            "items": null,
+            "count": 54,
+            "summary": [1619237.2500]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 100,
+            "summary": [2062791.9000]
+        }],
+        "summary": [3682029.1500]
+    }, {
+        "key": "WWI Projector 480p DLP12 Black",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 274,
+            "summary": [1565557.6100]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 158,
+            "summary": [927910.4600]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 94,
+            "summary": [520526.8600]
+        }],
+        "summary": [3013994.9300]
+    }, {
+        "key": "WWI Projector 480p DLP12 Silver",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 276,
+            "summary": [1685207.8300]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 146,
+            "summary": [838020.6000]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 111,
+            "summary": [633320.8200]
+        }],
+        "summary": [3156549.2500]
+    }, {
+        "key": "WWI Projector 480p DLP12 White",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 296,
+            "summary": [1790292.2400]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 155,
+            "summary": [973244.6100]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 99,
+            "summary": [650705.9800]
+        }],
+        "summary": [3414242.8300]
+    }, {
+        "key": "WWI Projector 480p LCD12 Black",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 290,
+            "summary": [813953.0200]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 139,
+            "summary": [377991.9800]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 109,
+            "summary": [302078.4800]
+        }],
+        "summary": [1494023.4800]
+    }, {
+        "key": "WWI Projector 480p LCD12 Silver",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 242,
+            "summary": [617867.1900]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 150,
+            "summary": [412362.5900]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 102,
+            "summary": [278328.8900]
+        }],
+        "summary": [1308558.6700]
+    }, {
+        "key": "WWI Projector 480p LCD12 White",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 260,
+            "summary": [746638.4700]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 135,
+            "summary": [382908.6100]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 93,
+            "summary": [262722.5400]
+        }],
+        "summary": [1392269.6200]
+    }, {
+        "key": "WWI Projector 720p DLP56 Black",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 255,
+            "summary": [2998778.2200]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 124,
+            "summary": [1504164.3300]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 119,
+            "summary": [1487451.0600]
+        }],
+        "summary": [5990393.6100]
+    }, {
+        "key": "WWI Projector 720p DLP56 Silver",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 263,
+            "summary": [3263263.4700]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 159,
+            "summary": [1925432.6400]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 94,
+            "summary": [1105493.4000]
+        }],
+        "summary": [6294189.5100]
+    }, {
+        "key": "WWI Projector 720p DLP56 White",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 232,
+            "summary": [2837649.5100]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 148,
+            "summary": [1887230.8800]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 108,
+            "summary": [1310478.2100]
+        }],
+        "summary": [6035358.6000]
+    }, {
+        "key": "WWI Projector 720p LCD56 Black",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 239,
+            "summary": [2112063.4500]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 156,
+            "summary": [1274360.8800]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 116,
+            "summary": [1040804.0100]
+        }],
+        "summary": [4427228.3400]
+    }, {
+        "key": "WWI Projector 720p LCD56 Silver",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 236,
+            "summary": [1988046.8700]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 144,
+            "summary": [1276660.5900]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 93,
+            "summary": [752096.0400]
+        }],
+        "summary": [4016803.5000]
+    }, {
+        "key": "WWI Projector 720p LCD56 White",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 232,
+            "summary": [1930176.6600]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 139,
+            "summary": [1121839.0800]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 100,
+            "summary": [888624.7200]
+        }],
+        "summary": [3940640.4600]
+    }, {
+        "key": "WWI Screen 100in M1609 Black",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 271,
+            "summary": [287561.2000]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 139,
+            "summary": [332188.4000]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 129,
+            "summary": [603719.3000]
+        }],
+        "summary": [1223468.9000]
+    }, {
+        "key": "WWI Screen 100in M1609 White",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 284,
+            "summary": [308086.9000]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 159,
+            "summary": [372048.5000]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 96,
+            "summary": [458050.1000]
+        }],
+        "summary": [1138185.5000]
+    }, {
+        "key": "WWI Screen 106in M1609 Black",
+        "items": [{
+            "key": 2008,
+            "items": null,
+            "count": 153,
+            "summary": [435412.2100]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 118,
+            "summary": [344592.8800]
+        }],
+        "summary": [780005.0900]
+    }, {
+        "key": "WWI Screen 106in M1609 Silver",
+        "items": [{
+            "key": 2008,
+            "items": null,
+            "count": 164,
+            "summary": [490637.2300]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 91,
+            "summary": [271855.5900]
+        }],
+        "summary": [762492.8200]
+    }, {
+        "key": "WWI Screen 106in M1609 White",
+        "items": [{
+            "key": 2008,
+            "items": null,
+            "count": 159,
+            "summary": [468777.6400]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 104,
+            "summary": [330288.3900]
+        }],
+        "summary": [799066.0300]
+    }, {
+        "key": "WWI Screen 113in M1610 Black",
+        "items": [{
+            "key": 2008,
+            "items": null,
+            "count": 119,
+            "summary": [421906.9400]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 117,
+            "summary": [404896.8300]
+        }],
+        "summary": [826803.7700]
+    }, {
+        "key": "WWI Screen 113in M1610 Silver",
+        "items": [{
+            "key": 2008,
+            "items": null,
+            "count": 121,
+            "summary": [464406.8000]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 96,
+            "summary": [333047.1300]
+        }],
+        "summary": [797453.9300]
+    }, {
+        "key": "WWI Screen 113in M1610 White",
+        "items": [{
+            "key": 2008,
+            "items": null,
+            "count": 144,
+            "summary": [512910.5800]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 82,
+            "summary": [311486.2400]
+        }],
+        "summary": [824396.8200]
+    }, {
+        "key": "WWI Screen 125in M1611 Black",
+        "items": [{
+            "key": 2009,
+            "items": null,
+            "count": 99,
+            "summary": [515516.6700]
+        }],
+        "summary": [515516.6700]
+    }, {
+        "key": "WWI Screen 125in M1611 Silver",
+        "items": [{
+            "key": 2009,
+            "items": null,
+            "count": 83,
+            "summary": [483175.5300]
+        }],
+        "summary": [483175.5300]
+    }, {
+        "key": "WWI Screen 125in M1611 White",
+        "items": [{
+            "key": 2009,
+            "items": null,
+            "count": 74,
+            "summary": [393018.7500]
+        }],
+        "summary": [393018.7500]
+    }, {
+        "key": "WWI Screen 85in E1010 Black",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 286,
+            "summary": [220180.1700]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 144,
+            "summary": [230478.6800]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 83,
+            "summary": [297875.6100]
+        }],
+        "summary": [748534.4600]
+    }, {
+        "key": "WWI Screen 85in E1010 White",
+        "items": [{
+            "key": 2007,
+            "items": null,
+            "count": 277,
+            "summary": [214575.6900]
+        }, {
+            "key": 2008,
+            "items": null,
+            "count": 147,
+            "summary": [246287.1500]
+        }, {
+            "key": 2009,
+            "items": null,
+            "count": 101,
+            "summary": [306917.5600]
+        }],
+        "summary": [767780.4000]
+    }],
+    "totalCount": 40981
+}
+]

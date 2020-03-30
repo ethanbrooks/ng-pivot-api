@@ -1,0 +1,185 @@
+[{
+		"url": "https://js.devexpress.com/Demos/WidgetsGalleryDataService/api/Sales/Orders?group=%5B%7B%22selector%22%3A%22ProductCategoryName%22%2C%22isExpanded%22%3Afalse%7D%2C%7B%22selector%22%3A%22DateKey%22%2C%22groupInterval%22%3A%22month%22%2C%22isExpanded%22%3Afalse%7D%5D&filter=%5B%5B%5B%22DateKey.Year%22%2C%22%3D%22%2C2009%5D%5D%2C%22and%22%2C%5B%5B%5B%22DateKey.Month%22%2C%22%3E%3D%22%2C1%5D%2C%22and%22%2C%5B%22DateKey.Month%22%2C%22%3C%22%2C4%5D%5D%5D%5D&totalSummary=%5B%5D&groupSummary=%5B%7B%22selector%22%3A%22SalesAmount%22%2C%22summaryType%22%3A%22sum%22%7D%5D&_=1585509613592"
+	},
+	{
+		"group": [{
+			"selector": "ProductCategoryName",
+			"isExpanded": false
+		}, {
+			"selector": "DateKey",
+			"groupInterval": "month",
+			"isExpanded": false
+		}],
+		"filter": [
+			[
+				["DateKey.Year", "=", 2009]
+			], "and", [
+				[
+					["DateKey.Month", ">=", 1], "and", ["DateKey.Month", "<", 4]
+				]
+			]
+		],
+		"totalSummary": [],
+		"groupSummary": [{
+			"selector": "SalesAmount",
+			"summaryType": "sum"
+		}],
+		"_": 1585509613592
+	},
+	{
+		"data": [{
+			"key": "Audio",
+			"items": [{
+				"key": 1,
+				"items": null,
+				"count": 808,
+				"summary": [1370170.8100]
+			}, {
+				"key": 2,
+				"items": null,
+				"count": 753,
+				"summary": [1261769.7688]
+			}, {
+				"key": 3,
+				"items": null,
+				"count": 823,
+				"summary": [1367929.1318]
+			}],
+			"summary": [3999869.7106]
+		}, {
+			"key": "Cameras and camcorders ",
+			"items": [{
+				"key": 1,
+				"items": null,
+				"count": 3037,
+				"summary": [14473526.3380]
+			}, {
+				"key": 2,
+				"items": null,
+				"count": 2873,
+				"summary": [13384038.0805]
+			}, {
+				"key": 3,
+				"items": null,
+				"count": 2906,
+				"summary": [13627727.0485]
+			}],
+			"summary": [41485291.4670]
+		}, {
+			"key": "Cell phones",
+			"items": [{
+				"key": 1,
+				"items": null,
+				"count": 2153,
+				"summary": [5696798.6245]
+			}, {
+				"key": 2,
+				"items": null,
+				"count": 2119,
+				"summary": [5193928.7227]
+			}, {
+				"key": 3,
+				"items": null,
+				"count": 2285,
+				"summary": [6028330.5656]
+			}],
+			"summary": [16919057.9128]
+		}, {
+			"key": "Computers",
+			"items": [{
+				"key": 1,
+				"items": null,
+				"count": 5550,
+				"summary": [22877386.2380]
+			}, {
+				"key": 2,
+				"items": null,
+				"count": 5439,
+				"summary": [22728727.0567]
+			}, {
+				"key": 3,
+				"items": null,
+				"count": 5427,
+				"summary": [22885996.8424]
+			}],
+			"summary": [68492110.1371]
+		}, {
+			"key": "Games and Toys",
+			"items": [{
+				"key": 1,
+				"items": null,
+				"count": 1261,
+				"summary": [1566755.3982]
+			}, {
+				"key": 2,
+				"items": null,
+				"count": 1305,
+				"summary": [1574107.1541]
+			}, {
+				"key": 3,
+				"items": null,
+				"count": 1221,
+				"summary": [1312207.1093]
+			}],
+			"summary": [4453069.6616]
+		}, {
+			"key": "Home Appliances",
+			"items": [{
+				"key": 1,
+				"items": null,
+				"count": 5405,
+				"summary": [23960938.0685]
+			}, {
+				"key": 2,
+				"items": null,
+				"count": 5390,
+				"summary": [23617048.3578]
+			}, {
+				"key": 3,
+				"items": null,
+				"count": 5450,
+				"summary": [25047364.8199]
+			}],
+			"summary": [72625351.2462]
+		}, {
+			"key": "Music, Movies and Audio Books",
+			"items": [{
+				"key": 1,
+				"items": null,
+				"count": 757,
+				"summary": [877408.9560]
+			}, {
+				"key": 2,
+				"items": null,
+				"count": 750,
+				"summary": [881570.3110]
+			}, {
+				"key": 3,
+				"items": null,
+				"count": 712,
+				"summary": [834802.5909]
+			}],
+			"summary": [2593781.8579]
+		}, {
+			"key": "TV and Video",
+			"items": [{
+				"key": 1,
+				"items": null,
+				"count": 1668,
+				"summary": [8890611.7800]
+			}, {
+				"key": 2,
+				"items": null,
+				"count": 1785,
+				"summary": [9482584.0045]
+			}, {
+				"key": 3,
+				"items": null,
+				"count": 1683,
+				"summary": [8643988.8718]
+			}],
+			"summary": [27017184.6563]
+		}],
+		"totalCount": 61560
+	}
+]

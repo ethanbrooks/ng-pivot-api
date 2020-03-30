@@ -1,0 +1,1719 @@
+[{
+		"url": "https://js.devexpress.com/Demos/WidgetsGalleryDataService/api/Sales/Orders?group=%5B%7B%22selector%22%3A%22ProductName%22%2C%22isExpanded%22%3Afalse%7D%2C%7B%22selector%22%3A%22DateKey%22%2C%22groupInterval%22%3A%22year%22%2C%22isExpanded%22%3Atrue%7D%2C%7B%22selector%22%3A%22DateKey%22%2C%22groupInterval%22%3A%22quarter%22%2C%22isExpanded%22%3Atrue%7D%2C%7B%22selector%22%3A%22DateKey%22%2C%22groupInterval%22%3A%22month%22%2C%22isExpanded%22%3Afalse%7D%5D&filter=%5B%5B%5B%22ProductCategoryName%22%2C%22%3D%22%2C%22Home%20Appliances%22%5D%5D%2C%22and%22%2C%5B%5B%22ProductSubcategoryName%22%2C%22%3D%22%2C%22Air%20Conditioners%22%5D%5D%2C%22and%22%2C%5B%5B%22DateKey.Year%22%2C%22%3D%22%2C2009%5D%2C%22or%22%2C%5B%22DateKey.Year%22%2C%22%3D%22%2C2009%5D%5D%2C%22and%22%2C%5B%5B%5B%22DateKey.Month%22%2C%22%3E%3D%22%2C1%5D%2C%22and%22%2C%5B%22DateKey.Month%22%2C%22%3C%22%2C4%5D%5D%5D%5D&totalSummary=%5B%5D&groupSummary=%5B%7B%22selector%22%3A%22SalesAmount%22%2C%22summaryType%22%3A%22sum%22%7D%5D&_=1585510120460"
+	},
+	{
+		"group": [{
+			"selector": "ProductName",
+			"isExpanded": false
+		}, {
+			"selector": "DateKey",
+			"groupInterval": "year",
+			"isExpanded": true
+		}, {
+			"selector": "DateKey",
+			"groupInterval": "quarter",
+			"isExpanded": true
+		}, {
+			"selector": "DateKey",
+			"groupInterval": "month",
+			"isExpanded": false
+		}],
+		"filter": [
+			[
+				["ProductCategoryName", "=", "Home Appliances"]
+			], "and", [
+				["ProductSubcategoryName", "=", "Air Conditioners"]
+			], "and", [
+				["DateKey.Year", "=", 2009], "or", ["DateKey.Year", "=", 2009]
+			], "and", [
+				[
+					["DateKey.Month", ">=", 1], "and", ["DateKey.Month", "<", 4]
+				]
+			]
+		],
+		"totalSummary": [],
+		"groupSummary": [{
+			"selector": "SalesAmount",
+			"summaryType": "sum"
+		}],
+		"_": 1585510120460
+	},
+	{
+		"data": [{
+			"key": "Contoso Air conditioner 10000BTU M0490 Blue",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 10,
+						"summary": [40290.0630]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 10,
+						"summary": [46490.5188]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 16,
+						"summary": [69645.4803]
+					}],
+					"summary": [156426.0621]
+				}],
+				"summary": [156426.0621]
+			}],
+			"summary": [156426.0621]
+		}, {
+			"key": "Contoso Air conditioner 10000BTU M0490 Grey",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 12,
+						"summary": [51254.8080]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 8,
+						"summary": [32636.2410]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 6,
+						"summary": [22574.4750]
+					}],
+					"summary": [106465.5240]
+				}],
+				"summary": [106465.5240]
+			}],
+			"summary": [106465.5240]
+		}, {
+			"key": "Contoso Air conditioner 10000BTU M0490 Red",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 5,
+						"summary": [19994.5350]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 8,
+						"summary": [31466.6682]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 11,
+						"summary": [55094.6187]
+					}],
+					"summary": [106555.8219]
+				}],
+				"summary": [106555.8219]
+			}],
+			"summary": [106555.8219]
+		}, {
+			"key": "Contoso Air conditioner 10000BTU M0490 Silver",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 9,
+						"summary": [42010.0230]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 8,
+						"summary": [33208.1277]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 6,
+						"summary": [23748.3477]
+					}],
+					"summary": [98966.4984]
+				}],
+				"summary": [98966.4984]
+			}],
+			"summary": [98966.4984]
+		}, {
+			"key": "Contoso Air conditioner 10000BTU M0490 White",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 13,
+						"summary": [60478.0935]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 13,
+						"summary": [59747.1105]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 8,
+						"summary": [30464.7915]
+					}],
+					"summary": [150689.9955]
+				}],
+				"summary": [150689.9955]
+			}],
+			"summary": [150689.9955]
+		}, {
+			"key": "Contoso Air conditioner 12000BTU M0640 Blue",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 7,
+						"summary": [44136.0405]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 10,
+						"summary": [46688.9850]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 11,
+						"summary": [50304.5064]
+					}],
+					"summary": [141129.5319]
+				}],
+				"summary": [141129.5319]
+			}],
+			"summary": [141129.5319]
+		}, {
+			"key": "Contoso Air conditioner 12000BTU M0640 Grey",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 10,
+						"summary": [49977.9135]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 6,
+						"summary": [37613.3823]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 12,
+						"summary": [53841.8295]
+					}],
+					"summary": [141433.1253]
+				}],
+				"summary": [141433.1253]
+			}],
+			"summary": [141433.1253]
+		}, {
+			"key": "Contoso Air conditioner 12000BTU M0640 Red",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 8,
+						"summary": [37420.1865]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 8,
+						"summary": [37746.7794]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 11,
+						"summary": [45796.6044]
+					}],
+					"summary": [120963.5703]
+				}],
+				"summary": [120963.5703]
+			}],
+			"summary": [120963.5703]
+		}, {
+			"key": "Contoso Air conditioner 12000BTU M0640 Silver",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 7,
+						"summary": [32613.2910]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 10,
+						"summary": [51229.0863]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 8,
+						"summary": [36178.2135]
+					}],
+					"summary": [120020.5908]
+				}],
+				"summary": [120020.5908]
+			}],
+			"summary": [120020.5908]
+		}, {
+			"key": "Contoso Air conditioner 12000BTU M0640 White",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 8,
+						"summary": [42342.0795]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 14,
+						"summary": [90374.2353]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 12,
+						"summary": [49637.5209]
+					}],
+					"summary": [182353.8357]
+				}],
+				"summary": [182353.8357]
+			}],
+			"summary": [182353.8357]
+		}, {
+			"key": "Contoso Air conditioner 25000BTU L1672 Blue",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 10,
+						"summary": [56094.3180]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 8,
+						"summary": [39450.4597]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 7,
+						"summary": [39297.8221]
+					}],
+					"summary": [134842.5998]
+				}],
+				"summary": [134842.5998]
+			}],
+			"summary": [134842.5998]
+		}, {
+			"key": "Contoso Air conditioner 25000BTU L1672 Grey",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 9,
+						"summary": [45250.6885]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 7,
+						"summary": [43387.2378]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 9,
+						"summary": [49416.4230]
+					}],
+					"summary": [138054.3493]
+				}],
+				"summary": [138054.3493]
+			}],
+			"summary": [138054.3493]
+		}, {
+			"key": "Contoso Air conditioner 25000BTU L1672 Red",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 6,
+						"summary": [44455.7010]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 5,
+						"summary": [25999.2712]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 5,
+						"summary": [28237.9560]
+					}],
+					"summary": [98692.9282]
+				}],
+				"summary": [98692.9282]
+			}],
+			"summary": [98692.9282]
+		}, {
+			"key": "Contoso Air conditioner 25000BTU L1672 Silver",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 9,
+						"summary": [46713.4655]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 10,
+						"summary": [67383.1405]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 7,
+						"summary": [38782.6702]
+					}],
+					"summary": [152879.2762]
+				}],
+				"summary": [152879.2762]
+			}],
+			"summary": [152879.2762]
+		}, {
+			"key": "Contoso Air conditioner 25000BTU L1672 White",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 7,
+						"summary": [42007.1395]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 5,
+						"summary": [28110.7580]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 9,
+						"summary": [56418.6729]
+					}],
+					"summary": [126536.5704]
+				}],
+				"summary": [126536.5704]
+			}],
+			"summary": [126536.5704]
+		}, {
+			"key": "Contoso Air conditioner 5200BTU E0100 Blue",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 7,
+						"summary": [14364.6940]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 6,
+						"summary": [17664.3940]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 12,
+						"summary": [24053.7131]
+					}],
+					"summary": [56082.8011]
+				}],
+				"summary": [56082.8011]
+			}],
+			"summary": [56082.8011]
+		}, {
+			"key": "Contoso Air conditioner 5200BTU E0100 Grey",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 8,
+						"summary": [24038.3145]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 11,
+						"summary": [27327.0155]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 6,
+						"summary": [15056.5311]
+					}],
+					"summary": [66421.8611]
+				}],
+				"summary": [66421.8611]
+			}],
+			"summary": [66421.8611]
+		}, {
+			"key": "Contoso Air conditioner 5200BTU E0100 Red",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 14,
+						"summary": [40014.3620]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 8,
+						"summary": [18934.7785]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 7,
+						"summary": [15475.5930]
+					}],
+					"summary": [74424.7335]
+				}],
+				"summary": [74424.7335]
+			}],
+			"summary": [74424.7335]
+		}, {
+			"key": "Contoso Air conditioner 5200BTU E0100 Silver",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 4,
+						"summary": [9536.1330]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 15,
+						"summary": [31496.7364]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 7,
+						"summary": [15734.0695]
+					}],
+					"summary": [56766.9389]
+				}],
+				"summary": [56766.9389]
+			}],
+			"summary": [56766.9389]
+		}, {
+			"key": "Contoso Air conditioner 5200BTU E0100 White",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 12,
+						"summary": [33744.9320]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 7,
+						"summary": [16268.6209]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 10,
+						"summary": [32038.9871]
+					}],
+					"summary": [82052.5400]
+				}],
+				"summary": [82052.5400]
+			}],
+			"summary": [82052.5400]
+		}, {
+			"key": "Contoso Air conditioner 6000BTU E0180 Blue",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 5,
+						"summary": [19989.0005]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 4,
+						"summary": [14329.2835]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 7,
+						"summary": [27278.6360]
+					}],
+					"summary": [61596.9200]
+				}],
+				"summary": [61596.9200]
+			}],
+			"summary": [61596.9200]
+		}, {
+			"key": "Contoso Air conditioner 6000BTU E0180 Grey",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 11,
+						"summary": [47347.6325]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 6,
+						"summary": [22674.8662]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 6,
+						"summary": [21288.9355]
+					}],
+					"summary": [91311.4342]
+				}],
+				"summary": [91311.4342]
+			}],
+			"summary": [91311.4342]
+		}, {
+			"key": "Contoso Air conditioner 6000BTU E0180 Red",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 11,
+						"summary": [48877.5560]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 9,
+						"summary": [34278.2860]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 11,
+						"summary": [50593.4702]
+					}],
+					"summary": [133749.3122]
+				}],
+				"summary": [133749.3122]
+			}],
+			"summary": [133749.3122]
+		}, {
+			"key": "Contoso Air conditioner 6000BTU E0180 Silver",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 9,
+						"summary": [38518.0740]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 7,
+						"summary": [35630.2184]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 10,
+						"summary": [40431.9783]
+					}],
+					"summary": [114580.2707]
+				}],
+				"summary": [114580.2707]
+			}],
+			"summary": [114580.2707]
+		}, {
+			"key": "Contoso Air conditioner 6000BTU E0180 White",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 7,
+						"summary": [25658.7170]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 12,
+						"summary": [78266.0865]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 6,
+						"summary": [25968.7015]
+					}],
+					"summary": [129893.5050]
+				}],
+				"summary": [129893.5050]
+			}],
+			"summary": [129893.5050]
+		}, {
+			"key": "Contoso Air conditioner 7000BTU E0260 Blue",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 7,
+						"summary": [23219.2260]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 13,
+						"summary": [40552.6482]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 6,
+						"summary": [16664.4445]
+					}],
+					"summary": [80436.3187]
+				}],
+				"summary": [80436.3187]
+			}],
+			"summary": [80436.3187]
+		}, {
+			"key": "Contoso Air conditioner 7000BTU E0260 Grey",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 6,
+						"summary": [23684.2105]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 8,
+						"summary": [30181.9939]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 1,
+						"summary": [2654.9115]
+					}],
+					"summary": [56521.1159]
+				}],
+				"summary": [56521.1159]
+			}],
+			"summary": [56521.1159]
+		}, {
+			"key": "Contoso Air conditioner 7000BTU E0260 Red",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 9,
+						"summary": [25004.1665]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 12,
+						"summary": [45208.4930]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 10,
+						"summary": [26114.1295]
+					}],
+					"summary": [96326.7890]
+				}],
+				"summary": [96326.7890]
+			}],
+			"summary": [96326.7890]
+		}, {
+			"key": "Contoso Air conditioner 7000BTU E0260 Silver",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 3,
+						"summary": [10469.6510]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 7,
+						"summary": [20261.3246]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 10,
+						"summary": [29411.0196]
+					}],
+					"summary": [60141.9952]
+				}],
+				"summary": [60141.9952]
+			}],
+			"summary": [60141.9952]
+		}, {
+			"key": "Contoso Air conditioner 7000BTU E0260 White",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 4,
+						"summary": [11639.6120]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 9,
+						"summary": [31513.9495]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 9,
+						"summary": [26624.1125]
+					}],
+					"summary": [69777.6740]
+				}],
+				"summary": [69777.6740]
+			}],
+			"summary": [69777.6740]
+		}, {
+			"key": "Contoso Air conditioner 8000BTU M0320 Blue",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 12,
+						"summary": [53578.6605]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 13,
+						"summary": [60514.4871]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 7,
+						"summary": [33091.1727]
+					}],
+					"summary": [147184.3203]
+				}],
+				"summary": [147184.3203]
+			}],
+			"summary": [147184.3203]
+		}, {
+			"key": "Contoso Air conditioner 8000BTU M0320 Grey",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 10,
+						"summary": [50338.7415]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 8,
+						"summary": [32499.1875]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 9,
+						"summary": [38999.0250]
+					}],
+					"summary": [121836.9540]
+				}],
+				"summary": [121836.9540]
+			}],
+			"summary": [121836.9540]
+		}, {
+			"key": "Contoso Air conditioner 8000BTU M0320 Red",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 9,
+						"summary": [49958.7510]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 10,
+						"summary": [38927.0268]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 6,
+						"summary": [20839.4790]
+					}],
+					"summary": [109725.2568]
+				}],
+				"summary": [109725.2568]
+			}],
+			"summary": [109725.2568]
+		}, {
+			"key": "Contoso Air conditioner 8000BTU M0320 Silver",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 4,
+						"summary": [17359.5660]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 10,
+						"summary": [43066.9233]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 10,
+						"summary": [53014.6746]
+					}],
+					"summary": [113441.1639]
+				}],
+				"summary": [113441.1639]
+			}],
+			"summary": [113441.1639]
+		}, {
+			"key": "Contoso Air conditioner 8000BTU M0320 White",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 6,
+						"summary": [27459.3135]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 9,
+						"summary": [33931.1517]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 9,
+						"summary": [36847.0788]
+					}],
+					"summary": [98237.5440]
+				}],
+				"summary": [98237.5440]
+			}],
+			"summary": [98237.5440]
+		}, {
+			"key": "Proseware Air conditioner 10000BTU M490 Grey",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 8,
+						"summary": [34678.6935]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 6,
+						"summary": [33027.5319]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 10,
+						"summary": [47075.3052]
+					}],
+					"summary": [114781.5306]
+				}],
+				"summary": [114781.5306]
+			}],
+			"summary": [114781.5306]
+		}, {
+			"key": "Proseware Air conditioner 10000BTU M490 Red",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 12,
+						"summary": [62972.0355]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 6,
+						"summary": [26272.3890]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 9,
+						"summary": [58229.2458]
+					}],
+					"summary": [147473.6703]
+				}],
+				"summary": [147473.6703]
+			}],
+			"summary": [147473.6703]
+		}, {
+			"key": "Proseware Air conditioner 10000BTU M490 Silver",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 8,
+						"summary": [40763.0520]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 9,
+						"summary": [50820.5181]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 8,
+						"summary": [33061.9311]
+					}],
+					"summary": [124645.5012]
+				}],
+				"summary": [124645.5012]
+			}],
+			"summary": [124645.5012]
+		}, {
+			"key": "Proseware Air conditioner 10000BTU M490 White",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 9,
+						"summary": [54931.2225]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 7,
+						"summary": [27493.5606]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 12,
+						"summary": [47582.6934]
+					}],
+					"summary": [130007.4765]
+				}],
+				"summary": [130007.4765]
+			}],
+			"summary": [130007.4765]
+		}, {
+			"key": "Proseware Air conditioner 12000BTU M640 Grey",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 9,
+						"summary": [53519.8365]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 12,
+						"summary": [69647.0859]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 8,
+						"summary": [42921.6669]
+					}],
+					"summary": [166088.5893]
+				}],
+				"summary": [166088.5893]
+			}],
+			"summary": [166088.5893]
+		}, {
+			"key": "Proseware Air conditioner 12000BTU M640 Red",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 10,
+						"summary": [59016.7170]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 10,
+						"summary": [57011.1606]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 8,
+						"summary": [36707.2020]
+					}],
+					"summary": [152735.0796]
+				}],
+				"summary": [152735.0796]
+			}],
+			"summary": [152735.0796]
+		}, {
+			"key": "Proseware Air conditioner 12000BTU M640 Silver",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 11,
+						"summary": [63616.6170]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 8,
+						"summary": [40584.9177]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 5,
+						"summary": [28519.3800]
+					}],
+					"summary": [132720.9147]
+				}],
+				"summary": [132720.9147]
+			}],
+			"summary": [132720.9147]
+		}, {
+			"key": "Proseware Air conditioner 12000BTU M640 White",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 4,
+						"summary": [15524.6625]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 10,
+						"summary": [43528.8537]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 3,
+						"summary": [12143.7360]
+					}],
+					"summary": [71197.2522]
+				}],
+				"summary": [71197.2522]
+			}],
+			"summary": [71197.2522]
+		}, {
+			"key": "Proseware Air conditioner 25000BTU L167 Grey",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 5,
+						"summary": [21528.2615]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 7,
+						"summary": [39234.2231]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 8,
+						"summary": [54542.5024]
+					}],
+					"summary": [115304.9870]
+				}],
+				"summary": [115304.9870]
+			}],
+			"summary": [115304.9870]
+		}, {
+			"key": "Proseware Air conditioner 25000BTU L167 Red",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 10,
+						"summary": [50529.4055]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 14,
+						"summary": [93197.9746]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 12,
+						"summary": [67783.8142]
+					}],
+					"summary": [211511.1943]
+				}],
+				"summary": [211511.1943]
+			}],
+			"summary": [211511.1943]
+		}, {
+			"key": "Proseware Air conditioner 25000BTU L167 Silver",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 6,
+						"summary": [32817.0840]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 8,
+						"summary": [52520.0542]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 9,
+						"summary": [54300.8262]
+					}],
+					"summary": [139637.9644]
+				}],
+				"summary": [139637.9644]
+			}],
+			"summary": [139637.9644]
+		}, {
+			"key": "Proseware Air conditioner 25000BTU L167 White",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 10,
+						"summary": [45568.6835]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 11,
+						"summary": [78322.1685]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 8,
+						"summary": [55967.1200]
+					}],
+					"summary": [179857.9720]
+				}],
+				"summary": [179857.9720]
+			}],
+			"summary": [179857.9720]
+		}, {
+			"key": "Proseware Air conditioner 5200BTU E100 Red",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 12,
+						"summary": [28707.3900]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 4,
+						"summary": [8562.7215]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 9,
+						"summary": [18343.0323]
+					}],
+					"summary": [55613.1438]
+				}],
+				"summary": [55613.1438]
+			}],
+			"summary": [55613.1438]
+		}, {
+			"key": "Proseware Air conditioner 5200BTU E100 Silver",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 11,
+						"summary": [22883.4195]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 6,
+						"summary": [11779.9290]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 8,
+						"summary": [15558.0855]
+					}],
+					"summary": [50221.4340]
+				}],
+				"summary": [50221.4340]
+			}],
+			"summary": [50221.4340]
+		}, {
+			"key": "Proseware Air conditioner 5200BTU E100 White",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 6,
+						"summary": [21970.5025]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 8,
+						"summary": [22997.8091]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 4,
+						"summary": [13097.6092]
+					}],
+					"summary": [58065.9208]
+				}],
+				"summary": [58065.9208]
+			}],
+			"summary": [58065.9208]
+		}, {
+			"key": "Proseware Air conditioner 6000BTU E180 Grey",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 9,
+						"summary": [48107.5945]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 17,
+						"summary": [67686.6155]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 5,
+						"summary": [26134.6932]
+					}],
+					"summary": [141928.9032]
+				}],
+				"summary": [141928.9032]
+			}],
+			"summary": [141928.9032]
+		}, {
+			"key": "Proseware Air conditioner 6000BTU E180 Red",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 9,
+						"summary": [36428.1785]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 8,
+						"summary": [38130.0934]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 10,
+						"summary": [41307.9345]
+					}],
+					"summary": [115866.2064]
+				}],
+				"summary": [115866.2064]
+			}],
+			"summary": [115866.2064]
+		}, {
+			"key": "Proseware Air conditioner 6000BTU E180 Silver",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 7,
+						"summary": [42857.8570]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 11,
+						"summary": [46601.6698]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 15,
+						"summary": [65216.7390]
+					}],
+					"summary": [154676.2658]
+				}],
+				"summary": [154676.2658]
+			}],
+			"summary": [154676.2658]
+		}, {
+			"key": "Proseware Air conditioner 6000BTU E180 White",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 6,
+						"summary": [22998.8500]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 12,
+						"summary": [46507.6745]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 8,
+						"summary": [30860.4569]
+					}],
+					"summary": [100366.9814]
+				}],
+				"summary": [100366.9814]
+			}],
+			"summary": [100366.9814]
+		}, {
+			"key": "Proseware Air conditioner 7000BTU E260 Grey",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 6,
+						"summary": [18644.3785]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 6,
+						"summary": [16811.4396]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 11,
+						"summary": [40864.6378]
+					}],
+					"summary": [76320.4559]
+				}],
+				"summary": [76320.4559]
+			}],
+			"summary": [76320.4559]
+		}, {
+			"key": "Proseware Air conditioner 7000BTU E260 Red",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 11,
+						"summary": [40213.6595]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 9,
+						"summary": [35029.8323]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 4,
+						"summary": [15947.4684]
+					}],
+					"summary": [91190.9602]
+				}],
+				"summary": [91190.9602]
+			}],
+			"summary": [91190.9602]
+		}, {
+			"key": "Proseware Air conditioner 7000BTU E260 Silver",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 7,
+						"summary": [24674.1775]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 7,
+						"summary": [27857.0714]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 8,
+						"summary": [25745.1418]
+					}],
+					"summary": [78276.3907]
+				}],
+				"summary": [78276.3907]
+			}],
+			"summary": [78276.3907]
+		}, {
+			"key": "Proseware Air conditioner 7000BTU E260 White",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 8,
+						"summary": [27134.0955]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 6,
+						"summary": [21566.2811]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 9,
+						"summary": [31030.9656]
+					}],
+					"summary": [79731.3422]
+				}],
+				"summary": [79731.3422]
+			}],
+			"summary": [79731.3422]
+		}, {
+			"key": "Proseware Air conditioner 8000BTU M320 Grey",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 17,
+						"summary": [75958.1010]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 5,
+						"summary": [23727.4068]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 3,
+						"summary": [14039.6490]
+					}],
+					"summary": [113725.1568]
+				}],
+				"summary": [113725.1568]
+			}],
+			"summary": [113725.1568]
+		}, {
+			"key": "Proseware Air conditioner 8000BTU M320 Red",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 7,
+						"summary": [28719.2820]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 10,
+						"summary": [35199.1200]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 9,
+						"summary": [45114.8721]
+					}],
+					"summary": [109033.2741]
+				}],
+				"summary": [109033.2741]
+			}],
+			"summary": [109033.2741]
+		}, {
+			"key": "Proseware Air conditioner 8000BTU M320 Silver",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 7,
+						"summary": [29219.2695]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 9,
+						"summary": [35607.1098]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 11,
+						"summary": [42218.9445]
+					}],
+					"summary": [107045.3238]
+				}],
+				"summary": [107045.3238]
+			}],
+			"summary": [107045.3238]
+		}, {
+			"key": "Proseware Air conditioner 8000BTU M320 White",
+			"items": [{
+				"key": 2009,
+				"items": [{
+					"key": 1,
+					"items": [{
+						"key": 1,
+						"items": null,
+						"count": 8,
+						"summary": [32059.1985]
+					}, {
+						"key": 2,
+						"items": null,
+						"count": 8,
+						"summary": [41482.9629]
+					}, {
+						"key": 3,
+						"items": null,
+						"count": 13,
+						"summary": [51598.7100]
+					}],
+					"summary": [125140.8714]
+				}],
+				"summary": [125140.8714]
+			}],
+			"summary": [125140.8714]
+		}],
+		"totalCount": 1593
+	}
+]
