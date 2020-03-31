@@ -34,7 +34,7 @@ import { createCustomElement } from '@angular/elements';
 export class AppElementModule {
   constructor(private injector: Injector) {
     const myElement = createCustomElement(PivotApiComponent, { injector });
-    customElements.define('app-pivot', myElement);
+    customElements.define('app-pivotapi', myElement);
   }
   ngDoBootstrap() {}
 }

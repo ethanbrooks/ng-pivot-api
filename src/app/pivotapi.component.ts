@@ -9,7 +9,7 @@ import * as AspNetData from 'devextreme-aspnet-data-nojquery';
 
 @Component({
     styleUrls: ['./pivotapi.component.css'],
-    selector: 'app-pivot',
+    selector: 'app-pivotapi',
     templateUrl: './pivotapi.component.html',
     preserveWhitespaces: true
 })
