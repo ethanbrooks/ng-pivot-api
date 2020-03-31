@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 import { DxPivotGridModule } from 'devextreme-angular';
-import * as AspNetData from "devextreme-aspnet-data-nojquery";
+import * as AspNetData from 'devextreme-aspnet-data-nojquery';
 
 
 @Component({
@@ -21,61 +21,61 @@ export class PivotApiComponent {
         this.dataSource = {
             remoteOperations: true,
             store: AspNetData.createStore({
-                key: "OrderID",
-                loadUrl: "https://js.devexpress.com/Demos/WidgetsGalleryDataService/api/Sales/Orders"
+                key: 'OrderID',
+                loadUrl: 'https://js.devexpress.com/Demos/WidgetsGalleryDataService/api/Sales/Orders'
             }),
             fields: [{
-                caption: "Category",
-                dataField: "ProductCategoryName",
+                caption: 'Category',
+                dataField: 'ProductCategoryName',
                 width: 250,
                 expanded: true,
-                sortBySummaryField: "SalesAmount",
+                sortBySummaryField: 'SalesAmount',
                 sortBySummaryPath: [],
-                sortOrder: "desc",
-                area: "row"
+                sortOrder: 'desc',
+                area: 'row'
             }, {
-                caption: "Subcategory",
-                dataField: "ProductSubcategoryName",
+                caption: 'Subcategory',
+                dataField: 'ProductSubcategoryName',
                 width: 250,
-                sortBySummaryField: "SalesAmount",
+                sortBySummaryField: 'SalesAmount',
                 sortBySummaryPath: [],
-                sortOrder: "desc",
-                area: "row"
+                sortOrder: 'desc',
+                area: 'row'
             }, {
-                caption: "Product",
-                dataField: "ProductName",
-                area: "row",
-                sortBySummaryField: "SalesAmount",
+                caption: 'Product',
+                dataField: 'ProductName',
+                area: 'row',
+                sortBySummaryField: 'SalesAmount',
                 sortBySummaryPath: [],
-                sortOrder: "desc",
+                sortOrder: 'desc',
                 width: 250
             }, {
-                caption: "Date",
-                dataField: "DateKey",
-                dataType: "date",
-                area: "column"
+                caption: 'Date',
+                dataField: 'DateKey',
+                dataType: 'date',
+                area: 'column'
             }, {
-                caption: "Amount",
-                dataField: "SalesAmount",
-                summaryType: "sum",
-                format: "currency",
-                area: "data"
+                caption: 'Amount',
+                dataField: 'SalesAmount',
+                summaryType: 'sum',
+                format: 'currency',
+                area: 'data'
             }, {
-                caption: "Store",
-                dataField: "StoreName"
+                caption: 'Store',
+                dataField: 'StoreName'
             }, {
-                caption: "Quantity",
-                dataField: "SalesQuantity",
-                summaryType: "sum"
+                caption: 'Quantity',
+                dataField: 'SalesQuantity',
+                summaryType: 'sum'
             }, {
-                caption: "Unit Price",
-                dataField: "UnitPrice",
-                format: "currency",
-                summaryType: "sum"
+                caption: 'Unit Price',
+                dataField: 'UnitPrice',
+                format: 'currency',
+                summaryType: 'sum'
             }, {
-                dataField: "Id",
+                dataField: 'Id',
                 visible: false
             }]
-        }
+        };
     }
 }
